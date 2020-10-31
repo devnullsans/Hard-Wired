@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: relative;
+  overflow: hidden;
+  background-color: orangered;
+}
+
+main {
+  position: sticky;
+  display: relative;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.top {
+  top: 0;
+  height: 10vh;
+  color: lime;
+  display: flex;
+  position: sticky;
+  margin-bottom: 1vh;
+  background-color: black;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mid {
+  background-color: black;
+  height: 81vh;
+  overflow-y: scroll;
+}
+
+.mid::-webkit-scrollbar {
+  display: none;
+}
+
+.item {
+  margin: 5px 0;
+  height: 10vh;
+  display: flex;
+  background-color: #55ff77;
+}
+
+figcaption {
+  font-size: 0.6rem;
+}
+
+img {
+  height: 44px;
+  width: 44px;
+}
+
+figure {
+  height: 10vh;
+  flex: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inmid {
+  height: 10vh;
+  flex: 2.4;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.atend {
+  height: 10vh;
+  flex: 1.0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  outline: none;
+  border: none;
+  width: 80%;
+  padding: 0.5vw 2vw;
+  text-align: center;
+  text-decoration: none;
+}
+
+.bbtn {
+  color: white;
+  background-color: black;
+}
+
+.rbtn {
+  color: white;
+  background-color: blue;
+}
+
+.mbtn {
+  color: white;
+  background-color: red;
+}
+
+#sbtn {
+  flex: 0.1;
+  height: 4vh;
+  font-size: 1.0rem;
+  font-weight: bold;
+  color: deepskyblue;
+  background-color: black;
+  border: 1px solid skyblue;
+}
+
+#mspn {
+  flex: 1.0;
+  height: 10vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
